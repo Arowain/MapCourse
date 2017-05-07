@@ -227,7 +227,6 @@ function fetchArticle(marker){
             clearTimeout(wikiRequestTimeout);
         }
     });
-    infoWindow.setContent(marker.title);
 }
 
 function toggleBounce(marker) {
